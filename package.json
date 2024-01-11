@@ -1,0 +1,25 @@
+{
+	"name": "backend-ldap-passwords",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix"
+	},
+	"dependencies": {
+		"ldap-md5": "^1.0.2",
+		"ldap-sha512": "^2.1.2"
+	},
+	"devDependencies": {
+		"@antfu/eslint-config": "^2.6.2",
+		"eslint": "^8.56.0",
+		"nuxt": "^3.9.0",
+		"vue": "^3.4.6",
+		"vue-router": "^4.2.5"
+	}
+}
